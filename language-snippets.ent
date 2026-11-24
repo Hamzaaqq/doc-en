@@ -1573,7 +1573,15 @@ it is inserted with (e.g.) <function xmlns="http://docbook.org/ns/docbook">DOMNo
   of the <link linkend="libxml.constants">libxml option constants</link>.
 </simpara>'>
 
-<!ENTITY dom.parameter.compliant.options '&dom.parameter.options;
+<!ENTITY dom.parameter.compliant.options '<simpara xmlns="http://docbook.org/ns/docbook">
+  A <link linkend="language.operators.bitwise">bitwise <literal>OR</literal></link>
+  of zero or more of the supported flags:
+  <constant>LIBXML_NOERROR</constant>, <constant>LIBXML_COMPACT</constant>,
+  <constant>LIBXML_HTML_NOIMPLIED</constant> and
+  <constant>Dom\HTML_NO_DEFAULT_NS</constant>.
+  See the <link linkend="libxml.constants">libxml constants</link> for
+  descriptions of the libxml flags. Pass 0 to use the default options.
+</simpara>
  <simpara xmlns="http://docbook.org/ns/docbook">
   It is also possible to pass <constant>Dom\HTML_NO_DEFAULT_NS</constant>
   to disable the use of the HTML namespace and the template element.
