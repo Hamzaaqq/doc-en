@@ -1583,8 +1583,8 @@ it is inserted with (e.g.) <function xmlns="http://docbook.org/ns/docbook">DOMNo
   descriptions of the libxml flags. Pass 0 to use the default options.
 </simpara>
  <simpara xmlns="http://docbook.org/ns/docbook">
-  It is also possible to pass <constant>Dom\HTML_NO_DEFAULT_NS</constant>
-  to disable the use of the HTML namespace and the template element.
+  The <constant>Dom\HTML_NO_DEFAULT_NS</constant> flag disables the use
+  of the HTML namespace and the template element.
   This should only be used if the implications are properly understood.
 </simpara>'>
 
